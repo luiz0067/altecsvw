@@ -1,0 +1,27 @@
+.outer a, .outer div, .outer li, .outer ul, .outer body{
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+}
+div.menu{
+	width: 152px;
+}
+div.menu ul{
+	list-style: none;
+	text-indent: 0px;
+}
+div.menu li{
+	margin-top: 0px;
+}
+div.menu a{
+	font: 12px Verdana;
+	color: #646464;
+	display:block;
+	height: 20px;
+	text-decoration: none;
+	background-color:#0CF;
+}
+div.menu a:hover{
+	background-color:#0FF;
+
+}
