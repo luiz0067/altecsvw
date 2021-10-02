@@ -1,0 +1,34 @@
+body {
+	margin-bottom:0px;
+	margin-left:0px;
+	margin-right:0px;
+	margin-top:0px;
+	width:100%;
+	height:100%;
+}
+@font-face {		
+	font-style: normal;
+	font-weight: normal;
+	font-family:"calisto";
+
+	/*src: url("../fontes/calisto.ttf"),url("../fontes/calisto.otf"); 
+	_src: url("../fontes/calisto.eot");*/
+	_src: url("../fontes/calisto.otf");
+}
+@font-face {		
+	font-style: normal;
+	font-weight: normal;
+	font-family:"myriad";
+
+	/* _src:url("../fontes/myriad.otf"),url("../fontes/myriad.ttf"); 
+	_src: url("../fontes/myriad.eot")*/
+	_src: url("../fontes/myriad.otf");
+}
+#apDiv1 {
+	position:absolute;
+	left:1011px;
+	top:63px;
+	width:213px;
+	height:31px;
+	z-index:1;
+}
