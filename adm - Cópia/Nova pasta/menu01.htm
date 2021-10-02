@@ -1,0 +1,75 @@
+<style type="text/css">
+			body {
+				margin-bottom:0px;
+				margin-left:0px;
+				margin-right:0px;
+				margin-top:0px;
+				width:100%;
+				height:100%;
+			}
+			/*fontes incorporadas*/
+			@font-face {		
+				font-style: normal;
+				font-weight: normal;
+				font-family:"calisto";
+
+				_src: url("./fontes/calisto.eot"),url("./fontes/calisto.otf");
+				src: url("./fontes/calisto.ttf");
+			}
+			@font-face {		
+				font-style: normal;
+				font-weight: normal;
+				font-family:"myriad";
+
+				_src: url("./fontes/myriad.eot"),url("./fontes/myriad.otf");
+				src: url("./fontes/myriad.ttf");
+			}
+			#apDiv1 {
+				position:absolute;
+				left:1011px;
+				top:63px;
+				width:213px;
+				height:31px;
+				z-index:1;
+			}
+		</style>
+  <div  style="width:742;">
+                            <div style="width:121px;height:69px;float:left;background-color:transparent;"><img  src="./imagens/menus/home_cinza.jpg" alt="Home" width="121" height="69" border="0" id="menu_home" usemap="#mapa_home"/></div>
+                            <div style="width:6px;height:69px;float:left;"></div>
+                            <div style="width:117px;height:69px;float:left;"><img class="transparente" src="./imagens/menus/institucional_cinza.jpg" alt=""  width="117" height="69" border="0" usemap="#mapa_institucional" id="menu_institucional" /></div>
+                            <div style="width:6px;height:69px;float:left;"></div>
+                            <div style="width:117px;height:69px;float:left;"><img class="transparente"  src="./imagens/menus/produtos_cinza.jpg" alt="Produtos"  width="117" height="69" border="0" usemap="#mapa_produtos" id="menu_produtos" /></div>
+                            <div style="width:6px;height:69px;float:left;"></div>
+                            <div style="width:117px;height:69px;float:left;"><img class="transparente" src="./imagens/menus/servicos_cinza.jpg" alt="Serviços" width="117" height="69" border="0" usemap="#mapa_servicos" id="menu_servicos" /></div>
+                            <div style="width:6px;height:69px;float:left;"></div>
+                            <div style="width:117px;height:69px;float:left;"><img class="transparente" src="./imagens/menus/contatos_cinza.jpg" alt="Contatos" name="menu_contatos"  width="117" height="69" border="0" usemap="#mapa_contatos" id="menu_contatos" /></div>
+                       </div>
+         
+                    
+             
+                    <map name="mapa_home" id="mapa_home">
+                      <area shape="poly" coords="0,54,4,50,8,47,19,44,34,40,58,34,99,27,109,24,130,24,125,50,91,56,71,59,50,63,34,73,-1,66" href="?pg=home" onmouseover="document.getElementById('menu_home').src='./imagens/menus/home_azul.jpg'" onMouseOut="document.getElementById('menu_home').src='./imagens/menus/home_cinza.jpg'"/>
+                    </map>
+                    
+                    <map name="mapa_institucional" id="mapa_institucional">
+                      <area shape="poly" coords="2,21,132,5,127,27,121,37,73,41,33,46,1,49" href="?pg=institucional" onmouseover="document.getElementById('menu_institucional').src='./imagens/menus/institucional_azul.jpg'" onMouseOut="document.getElementById('menu_institucional').src='./imagens/menus/institucional_cinza.jpg'"/>
+                    </map>
+                    
+                    <map name="mapa_produtos" id="mapa_produtos">
+                      <area shape="poly" coords="0,3,150,1,120,29,99,32,75,31,53,34,33,37,14,36,3,34,-1,31" href="?pg=produtos" onmouseover="document.getElementById('menu_produtos').src='./imagens/menus/produtos_azul.jpg'" onMouseOut="document.getElementById('menu_produtos').src='./imagens/menus/produtos_cinza.jpg'"/>
+                    </map>
+                    
+                    <map name="mapa_servicos" id="mapa_servicos">
+                      <area shape="poly" coords="61,2,128,4,113,35,52,32,1,30,0,2" href="?pg=servicos" onmouseover="document.getElementById('menu_servicos').src='./imagens/menus/servicos_azul.jpg'" onMouseOut="document.getElementById('menu_servicos').src='./imagens/menus/servicos_cinza.jpg'"/>
+                    </map>
+                    
+                    <map name="mapa_contatos" id="mapa_contatos">
+                      <area shape="poly" coords="-10,6,116,20,116,49,80,43,34,38,-48,38" href="?pg=contatos" href="?pg=servicos" onmouseover="document.getElementById('menu_contatos').src='./imagens/menus/contatos_azul.jpg'" onMouseOut="document.getElementById('menu_contatos').src='./imagens/menus/contatos_cinza.jpg'"  />
+
+<map name="mapa_servicos" id="mapa_servicos">
+  <area shape="poly" coords="61,2,128,4,113,35,52,32,1,30,0,2" href="?pg=servicos" onmouseover="document.getElementById('menu_servicos').src='./servicos_azul.jpg'" onMouseOut="document.getElementById('menu_servicos').src='./servicos_cinza.jpg'"/>
+</map>
+
+<map name="mapa_contatos" id="mapa_contatos">
+  <area shape="poly" coords="-10,6,116,20,116,49,80,43,34,38,-48,38" href="?pg=contatos" href="?pg=servicos" onmouseover="document.getElementById('menu_contatos').src='./contatos_azul.jpg'"  onMouseOut="document.getElementById('menu_contatos').src='./contatos_cinza.jpg'" />
+</map>
